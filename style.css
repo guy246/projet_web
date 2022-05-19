@@ -1,0 +1,20 @@
+.header{
+	text-align: center;
+	height: 100px;
+}
+
+.header img{
+	top : 0;
+	left: 0;
+	height : inherit;
+	width: 20%;
+}
+
+.container{
+	background-image: url("background.png");
+}
+
+.container img{
+	width: 100%;
+	height: auto;
+}
