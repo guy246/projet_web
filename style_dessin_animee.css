@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     color: black;
-    text-align: center;
     font-style: italic;
 }
 
@@ -113,49 +112,35 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: block;
-    text-align: center;
-    padding-top: auto;
-    padding-left: auto;
-}
-
-body background-image{
-    min-height: 100%;
-    min-width: 1024px;
-    /* On indique un redimensionnement proportionnel */
-    width: 100%;
-    height: auto;
-    /* L'image est positionnée en haut à gauche */
-    position: relative;
-    top: 0;
-    left: 0;
+    padding-left: 0%;
+    margin-left: 0%;
 }
 
 body h1{
     font-family: Impact;
     color : white;
     display: block;
-    font-size:  90px;
+    font-size:  50px;
     text-shadow: black 4px 10px;
-    text-align: center;
     margin: 0px;
-    padding-top:15%;
+    padding-top:0%;
+    text-align: center;
 }
 
-body h2{
-    text-align: center;
-    font-family: Impact;
-    color : white;
-    display: block;
-    font-size:  30px;
-    text-shadow: black 4px 5px;
-    margin: 0px;
+.affiche{
+    border: 2px solid lightblue;
+    max-width: 10%;
+}
+.film{
+    padding-left: 0px;
+    padding-top: 5%;
 }
 
 footer{
     text-align: center;
     height: 85px;
     background-color: #5FA7D5;
-    position:absolute;
+    position: fixed;
     bottom:0;
     width:100%;
     box-shadow: 0px -3px 4px;  

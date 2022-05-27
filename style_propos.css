@@ -138,17 +138,22 @@ body h1{
     text-shadow: black 4px 10px;
     text-align: center;
     margin: 0px;
-    padding-top:15%;
+    padding-top:0%;
 }
 
-body h2{
+body .paragraphe{
     text-align: center;
     font-family: Impact;
     color : white;
     display: block;
-    font-size:  30px;
-    text-shadow: black 4px 5px;
+    font-size:  20px;
     margin: 0px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 footer{
