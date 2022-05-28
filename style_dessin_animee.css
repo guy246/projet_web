@@ -130,12 +130,51 @@ body h1{
 .affiche{
     border: 2px solid lightblue;
     max-width: 10%;
-}
-.film{
-    padding-left: 0px;
-    padding-top: 5%;
+    position: relative;
 }
 
+.film{
+    padding-left: 0px;
+    margin-top : 15px;
+    margin-bottom: 15px;
+    position : relative;
+
+}
+
+#synopsis{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -265px;
+    margin-right : 5px;
+    padding : 5px;
+    position : absolute;
+    display : block;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color : white;
+    opacity : 0.8;
+}
+
+.film button{
+    text-align: center;
+    margin-top: ;
+    font-family: Impact;
+    color : white;
+    opacity : 0.8;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    position : relative;
+    text-align: center;
+}
+
+.film button:hover{
+    background-color: red;
+}
 footer{
     text-align: center;
     height: 85px;
